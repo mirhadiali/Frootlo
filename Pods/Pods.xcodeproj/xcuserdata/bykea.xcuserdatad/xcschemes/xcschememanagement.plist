@@ -4,75 +4,75 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Firebase.xcscheme_^#shared#^_</key>
+		<key>Firebase.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>FirebaseAnalytics.xcscheme_^#shared#^_</key>
+		<key>FirebaseAnalytics.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>FirebaseCore.xcscheme_^#shared#^_</key>
+		<key>FirebaseCore.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>FirebaseCoreDiagnostics.xcscheme_^#shared#^_</key>
+		<key>FirebaseCoreDiagnostics.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>FirebaseInstallations.xcscheme_^#shared#^_</key>
+		<key>FirebaseInstallations.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>GoogleAppMeasurement.xcscheme_^#shared#^_</key>
+		<key>GoogleAppMeasurement.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>GoogleDataTransport.xcscheme_^#shared#^_</key>
+		<key>GoogleDataTransport.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>GoogleDataTransportCCTSupport.xcscheme_^#shared#^_</key>
+		<key>GoogleDataTransportCCTSupport.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>GoogleUtilities.xcscheme_^#shared#^_</key>
+		<key>GoogleUtilities.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>Pods-Frootlo-FrootloUITests.xcscheme_^#shared#^_</key>
+		<key>Pods-Frootlo-FrootloUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>Pods-Frootlo.xcscheme_^#shared#^_</key>
+		<key>Pods-Frootlo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>Pods-FrootloTests.xcscheme_^#shared#^_</key>
+		<key>Pods-FrootloTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>PromisesObjC.xcscheme_^#shared#^_</key>
+		<key>PromisesObjC.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>nanopb.xcscheme_^#shared#^_</key>
+		<key>nanopb.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
