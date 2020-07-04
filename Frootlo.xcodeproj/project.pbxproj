@@ -8,16 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1D4B1C121EA4593D2D13103D /* Pods_FrootloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A2707B967B9603DAD2AA0F /* Pods_FrootloTests.framework */; };
+		280B03AA24B0A0110000283A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280B03A924B0A0110000283A /* HomeViewController.swift */; };
 		2875F79E24A955BF007CBAEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F79D24A955BF007CBAEC /* AppDelegate.swift */; };
-		2875F7A224A955BF007CBAEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F7A124A955BF007CBAEC /* ViewController.swift */; };
+		2875F7A224A955BF007CBAEC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F7A124A955BF007CBAEC /* LoginViewController.swift */; };
 		2875F7A524A955BF007CBAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2875F7A324A955BF007CBAEC /* Main.storyboard */; };
 		2875F7A724A955C0007CBAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2875F7A624A955C0007CBAEC /* Assets.xcassets */; };
 		2875F7AA24A955C0007CBAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2875F7A824A955C0007CBAEC /* LaunchScreen.storyboard */; };
 		2875F7B524A955C0007CBAEC /* FrootloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F7B424A955C0007CBAEC /* FrootloTests.swift */; };
 		2875F7C024A955C0007CBAEC /* FrootloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F7BF24A955C0007CBAEC /* FrootloUITests.swift */; };
 		2875F7E324A95ECF007CBAEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2875F7E224A95ECF007CBAEC /* GoogleService-Info.plist */; };
-		2875F7E624AA95F2007CBAEC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F7E524AA95F2007CBAEC /* Extensions.swift */; };
 		2875F7ED24AAA9E5007CBAEC /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F7EC24AAA9E5007CBAEC /* Environment.swift */; };
+		287DBC9E24AC7CBB00A63B4D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287DBC9D24AC7CBB00A63B4D /* Constants.swift */; };
+		2893965324B0A6A2004A9C1C /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2893965224B0A6A2004A9C1C /* Cart.storyboard */; };
+		2893965E24B0AC89004A9C1C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2893965D24B0AC89004A9C1C /* Home.storyboard */; };
+		289463D724ABD6DE00595920 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289463D624ABD6DE00595920 /* Extensions.swift */; };
+		289463D924ABDD7E00595920 /* BaseUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289463D824ABDD7E00595920 /* BaseUILabel.swift */; };
+		289463DB24ABE47D00595920 /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289463DA24ABE47D00595920 /* RoundedLabel.swift */; };
+		289463ED24ABEAD700595920 /* Signika-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 289463E924ABEAD600595920 /* Signika-Bold.ttf */; };
+		289463EE24ABEAD700595920 /* Signika-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 289463EA24ABEAD600595920 /* Signika-Regular.ttf */; };
+		289463EF24ABEAD700595920 /* Signika-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 289463EB24ABEAD600595920 /* Signika-SemiBold.ttf */; };
+		289463F024ABEAD700595920 /* Signika-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 289463EC24ABEAD600595920 /* Signika-Light.ttf */; };
+		289463F324ABEDEC00595920 /* BaseUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289463F224ABEDEC00595920 /* BaseUIButton.swift */; };
+		289463F524ABF0B100595920 /* BaseUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289463F424ABF0B100595920 /* BaseUITextField.swift */; };
 		5445F0D53A673992426423F0 /* Pods_Frootlo_FrootloUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AB655ED9249B1DAE465516 /* Pods_Frootlo_FrootloUITests.framework */; };
 		BA77B3226B172F44056B8D8F /* Pods_Frootlo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEB753CD5A5F6D86821F41D /* Pods_Frootlo.framework */; };
 /* End PBXBuildFile section */
@@ -42,10 +54,10 @@
 /* Begin PBXFileReference section */
 		0FEB753CD5A5F6D86821F41D /* Pods_Frootlo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frootlo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10AB655ED9249B1DAE465516 /* Pods_Frootlo_FrootloUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frootlo_FrootloUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		280B03A924B0A0110000283A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2875F79A24A955BF007CBAEC /* Frootlo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frootlo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2875F79D24A955BF007CBAEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2875F7A124A955BF007CBAEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2875F7A424A955BF007CBAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2875F7A124A955BF007CBAEC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2875F7A624A955C0007CBAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2875F7A924A955C0007CBAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2875F7AB24A955C0007CBAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,12 +68,24 @@
 		2875F7BF24A955C0007CBAEC /* FrootloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrootloUITests.swift; sourceTree = "<group>"; };
 		2875F7C124A955C0007CBAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2875F7E224A95ECF007CBAEC /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "Frootlo/Firebase/Staging/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		2875F7E524AA95F2007CBAEC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../.ssh/Extensions.swift; sourceTree = "<group>"; };
 		2875F7E724AA9C94007CBAEC /* Frootlo Debug Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Frootlo Debug Staging.xcconfig"; sourceTree = "<group>"; };
 		2875F7E824AA9CB5007CBAEC /* Frootlo Debug Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Frootlo Debug Production.xcconfig"; sourceTree = "<group>"; };
 		2875F7E924AA9CC9007CBAEC /* Frootlo Release Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Frootlo Release Staging.xcconfig"; sourceTree = "<group>"; };
 		2875F7EA24AA9CDE007CBAEC /* Frootlo Release Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Frootlo Release Production.xcconfig"; sourceTree = "<group>"; };
 		2875F7EC24AAA9E5007CBAEC /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		287DBC9D24AC7CBB00A63B4D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2893965224B0A6A2004A9C1C /* Cart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
+		2893965A24B0AC19004A9C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2893965D24B0AC89004A9C1C /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		289463D624ABD6DE00595920 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Frootlo/Utilities/Extensions.swift; sourceTree = SOURCE_ROOT; };
+		289463D824ABDD7E00595920 /* BaseUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUILabel.swift; sourceTree = "<group>"; };
+		289463DA24ABE47D00595920 /* RoundedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
+		289463E924ABEAD600595920 /* Signika-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Signika-Bold.ttf"; path = "../../../../Downloads/Signika (1)/Signika-Bold.ttf"; sourceTree = "<group>"; };
+		289463EA24ABEAD600595920 /* Signika-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Signika-Regular.ttf"; path = "../../../../Downloads/Signika (1)/Signika-Regular.ttf"; sourceTree = "<group>"; };
+		289463EB24ABEAD600595920 /* Signika-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Signika-SemiBold.ttf"; path = "../../../../Downloads/Signika (1)/Signika-SemiBold.ttf"; sourceTree = "<group>"; };
+		289463EC24ABEAD600595920 /* Signika-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Signika-Light.ttf"; path = "../../../../Downloads/Signika (1)/Signika-Light.ttf"; sourceTree = "<group>"; };
+		289463F224ABEDEC00595920 /* BaseUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIButton.swift; sourceTree = "<group>"; };
+		289463F424ABF0B100595920 /* BaseUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUITextField.swift; sourceTree = "<group>"; };
 		2A4EF02570FAC3DF07889828 /* Pods-Frootlo-FrootloUITests.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frootlo-FrootloUITests.debug staging.xcconfig"; path = "Target Support Files/Pods-Frootlo-FrootloUITests/Pods-Frootlo-FrootloUITests.debug staging.xcconfig"; sourceTree = "<group>"; };
 		2A828D6B579691D5CC894C1F /* Pods-FrootloTests.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrootloTests.debug staging.xcconfig"; path = "Target Support Files/Pods-FrootloTests/Pods-FrootloTests.debug staging.xcconfig"; sourceTree = "<group>"; };
 		49AAA8F7A2360AF3C5A4F90D /* Pods-Frootlo-FrootloUITests.release production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frootlo-FrootloUITests.release production.xcconfig"; path = "Target Support Files/Pods-Frootlo-FrootloUITests/Pods-Frootlo-FrootloUITests.release production.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +175,7 @@
 				2875F7DB24A95991007CBAEC /* ViewControllers */,
 				2875F7DC24A959AA007CBAEC /* StoryBoards */,
 				2875F7E424AA95D0007CBAEC /* Extension */,
+				289463DC24ABE8C000595920 /* Font */,
 				2875F7EB24AAA9B2007CBAEC /* Utilities */,
 			);
 			path = Frootlo;
@@ -202,7 +227,8 @@
 		2875F7DB24A95991007CBAEC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				2875F7A124A955BF007CBAEC /* ViewController.swift */,
+				2893965424B0A93F004A9C1C /* LoginViewControllers */,
+				2893965524B0A9C3004A9C1C /* HomeViewControllers */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -212,6 +238,8 @@
 			children = (
 				2875F7A824A955C0007CBAEC /* LaunchScreen.storyboard */,
 				2875F7A324A955BF007CBAEC /* Main.storyboard */,
+				2893965224B0A6A2004A9C1C /* Cart.storyboard */,
+				2893965D24B0AC89004A9C1C /* Home.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -219,7 +247,7 @@
 		2875F7E424AA95D0007CBAEC /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				2875F7E524AA95F2007CBAEC /* Extensions.swift */,
+				289463D624ABD6DE00595920 /* Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -228,8 +256,40 @@
 			isa = PBXGroup;
 			children = (
 				2875F7EC24AAA9E5007CBAEC /* Environment.swift */,
+				289463DA24ABE47D00595920 /* RoundedLabel.swift */,
+				289463D824ABDD7E00595920 /* BaseUILabel.swift */,
+				289463F224ABEDEC00595920 /* BaseUIButton.swift */,
+				289463F424ABF0B100595920 /* BaseUITextField.swift */,
+				287DBC9D24AC7CBB00A63B4D /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2893965424B0A93F004A9C1C /* LoginViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2875F7A124A955BF007CBAEC /* LoginViewController.swift */,
+			);
+			path = LoginViewControllers;
+			sourceTree = "<group>";
+		};
+		2893965524B0A9C3004A9C1C /* HomeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				280B03A924B0A0110000283A /* HomeViewController.swift */,
+			);
+			path = HomeViewControllers;
+			sourceTree = "<group>";
+		};
+		289463DC24ABE8C000595920 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				289463E924ABEAD600595920 /* Signika-Bold.ttf */,
+				289463EC24ABEAD600595920 /* Signika-Light.ttf */,
+				289463EA24ABEAD600595920 /* Signika-Regular.ttf */,
+				289463EB24ABEAD600595920 /* Signika-SemiBold.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		2B7BD5611AA0CD59FEC8186C /* Pods */ = {
@@ -361,9 +421,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289463F024ABEAD700595920 /* Signika-Light.ttf in Resources */,
+				2893965E24B0AC89004A9C1C /* Home.storyboard in Resources */,
 				2875F7AA24A955C0007CBAEC /* LaunchScreen.storyboard in Resources */,
 				2875F7E324A95ECF007CBAEC /* GoogleService-Info.plist in Resources */,
 				2875F7A724A955C0007CBAEC /* Assets.xcassets in Resources */,
+				289463ED24ABEAD700595920 /* Signika-Bold.ttf in Resources */,
+				289463EF24ABEAD700595920 /* Signika-SemiBold.ttf in Resources */,
+				289463EE24ABEAD700595920 /* Signika-Regular.ttf in Resources */,
+				2893965324B0A6A2004A9C1C /* Cart.storyboard in Resources */,
 				2875F7A524A955BF007CBAEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,10 +576,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2875F7A224A955BF007CBAEC /* ViewController.swift in Sources */,
+				2875F7A224A955BF007CBAEC /* LoginViewController.swift in Sources */,
 				2875F7ED24AAA9E5007CBAEC /* Environment.swift in Sources */,
-				2875F7E624AA95F2007CBAEC /* Extensions.swift in Sources */,
+				289463F524ABF0B100595920 /* BaseUITextField.swift in Sources */,
+				289463DB24ABE47D00595920 /* RoundedLabel.swift in Sources */,
 				2875F79E24A955BF007CBAEC /* AppDelegate.swift in Sources */,
+				280B03AA24B0A0110000283A /* HomeViewController.swift in Sources */,
+				289463D924ABDD7E00595920 /* BaseUILabel.swift in Sources */,
+				289463D724ABD6DE00595920 /* Extensions.swift in Sources */,
+				289463F324ABEDEC00595920 /* BaseUIButton.swift in Sources */,
+				287DBC9E24AC7CBB00A63B4D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,7 +624,7 @@
 		2875F7A324A955BF007CBAEC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2875F7A424A955BF007CBAEC /* Base */,
+				2893965A24B0AC19004A9C1C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

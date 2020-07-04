@@ -18,6 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        UILabel.appearance().substituteFontName = "Signika"
+        UITextView.appearance().substituteFontName = "Signika"
+        UITextField.appearance().substituteFontName = "Signika"
+        UIButton.appearance().substituteFontName = "Signika"
         
         return true
     }

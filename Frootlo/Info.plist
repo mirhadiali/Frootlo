@@ -64,5 +64,12 @@
 	<string>$(base_url)</string>
 	<key>api_key</key>
 	<string>$(api_key)</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Signika-Bold.ttf</string>
+		<string>Signika-Light.ttf</string>
+		<string>Signika-Regular.ttf</string>
+		<string>Signika-SemiBold.ttf</string>
+	</array>
 </dict>
 </plist>
