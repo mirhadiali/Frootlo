@@ -12,7 +12,6 @@
 		2875F79E24A955BF007CBAEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F79D24A955BF007CBAEC /* AppDelegate.swift */; };
 		2875F7A224A955BF007CBAEC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F7A124A955BF007CBAEC /* LoginViewController.swift */; };
 		2875F7A524A955BF007CBAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2875F7A324A955BF007CBAEC /* Main.storyboard */; };
-		2875F7A724A955C0007CBAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2875F7A624A955C0007CBAEC /* Assets.xcassets */; };
 		2875F7AA24A955C0007CBAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2875F7A824A955C0007CBAEC /* LaunchScreen.storyboard */; };
 		2875F7B524A955C0007CBAEC /* FrootloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F7B424A955C0007CBAEC /* FrootloTests.swift */; };
 		2875F7C024A955C0007CBAEC /* FrootloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F7BF24A955C0007CBAEC /* FrootloUITests.swift */; };
@@ -20,7 +19,9 @@
 		2875F7ED24AAA9E5007CBAEC /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F7EC24AAA9E5007CBAEC /* Environment.swift */; };
 		287DBC9E24AC7CBB00A63B4D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287DBC9D24AC7CBB00A63B4D /* Constants.swift */; };
 		2893965324B0A6A2004A9C1C /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2893965224B0A6A2004A9C1C /* Cart.storyboard */; };
-		2893965E24B0AC89004A9C1C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2893965D24B0AC89004A9C1C /* Home.storyboard */; };
+		2893966524B13FF9004A9C1C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2893966424B13FF9004A9C1C /* Home.storyboard */; };
+		2893966824B14662004A9C1C /* FruitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2893966724B14662004A9C1C /* FruitCollectionViewCell.swift */; };
+		2893966A24B15B1B004A9C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2893966924B15B1A004A9C1C /* Assets.xcassets */; };
 		289463D724ABD6DE00595920 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289463D624ABD6DE00595920 /* Extensions.swift */; };
 		289463D924ABDD7E00595920 /* BaseUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289463D824ABDD7E00595920 /* BaseUILabel.swift */; };
 		289463DB24ABE47D00595920 /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289463DA24ABE47D00595920 /* RoundedLabel.swift */; };
@@ -58,7 +59,6 @@
 		2875F79A24A955BF007CBAEC /* Frootlo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frootlo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2875F79D24A955BF007CBAEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2875F7A124A955BF007CBAEC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		2875F7A624A955C0007CBAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2875F7A924A955C0007CBAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2875F7AB24A955C0007CBAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2875F7B024A955C0007CBAEC /* FrootloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrootloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,7 +76,9 @@
 		287DBC9D24AC7CBB00A63B4D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2893965224B0A6A2004A9C1C /* Cart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
 		2893965A24B0AC19004A9C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2893965D24B0AC89004A9C1C /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		2893966424B13FF9004A9C1C /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		2893966724B14662004A9C1C /* FruitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCollectionViewCell.swift; sourceTree = "<group>"; };
+		2893966924B15B1A004A9C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		289463D624ABD6DE00595920 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Frootlo/Utilities/Extensions.swift; sourceTree = SOURCE_ROOT; };
 		289463D824ABDD7E00595920 /* BaseUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUILabel.swift; sourceTree = "<group>"; };
 		289463DA24ABE47D00595920 /* RoundedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
@@ -165,7 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				2875F79D24A955BF007CBAEC /* AppDelegate.swift */,
-				2875F7A624A955C0007CBAEC /* Assets.xcassets */,
+				2893966924B15B1A004A9C1C /* Assets.xcassets */,
 				2875F7AB24A955C0007CBAEC /* Info.plist */,
 				2875F7E724AA9C94007CBAEC /* Frootlo Debug Staging.xcconfig */,
 				2875F7E824AA9CB5007CBAEC /* Frootlo Debug Production.xcconfig */,
@@ -238,8 +240,8 @@
 			children = (
 				2875F7A824A955C0007CBAEC /* LaunchScreen.storyboard */,
 				2875F7A324A955BF007CBAEC /* Main.storyboard */,
+				2893966424B13FF9004A9C1C /* Home.storyboard */,
 				2893965224B0A6A2004A9C1C /* Cart.storyboard */,
-				2893965D24B0AC89004A9C1C /* Home.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -276,9 +278,18 @@
 		2893965524B0A9C3004A9C1C /* HomeViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2893966624B1460D004A9C1C /* cells */,
 				280B03A924B0A0110000283A /* HomeViewController.swift */,
 			);
 			path = HomeViewControllers;
+			sourceTree = "<group>";
+		};
+		2893966624B1460D004A9C1C /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				2893966724B14662004A9C1C /* FruitCollectionViewCell.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 		289463DC24ABE8C000595920 /* Font */ = {
@@ -422,10 +433,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				289463F024ABEAD700595920 /* Signika-Light.ttf in Resources */,
-				2893965E24B0AC89004A9C1C /* Home.storyboard in Resources */,
+				2893966524B13FF9004A9C1C /* Home.storyboard in Resources */,
 				2875F7AA24A955C0007CBAEC /* LaunchScreen.storyboard in Resources */,
 				2875F7E324A95ECF007CBAEC /* GoogleService-Info.plist in Resources */,
-				2875F7A724A955C0007CBAEC /* Assets.xcassets in Resources */,
+				2893966A24B15B1B004A9C1C /* Assets.xcassets in Resources */,
 				289463ED24ABEAD700595920 /* Signika-Bold.ttf in Resources */,
 				289463EF24ABEAD700595920 /* Signika-SemiBold.ttf in Resources */,
 				289463EE24ABEAD700595920 /* Signika-Regular.ttf in Resources */,
@@ -580,6 +591,7 @@
 				2875F7ED24AAA9E5007CBAEC /* Environment.swift in Sources */,
 				289463F524ABF0B100595920 /* BaseUITextField.swift in Sources */,
 				289463DB24ABE47D00595920 /* RoundedLabel.swift in Sources */,
+				2893966824B14662004A9C1C /* FruitCollectionViewCell.swift in Sources */,
 				2875F79E24A955BF007CBAEC /* AppDelegate.swift in Sources */,
 				280B03AA24B0A0110000283A /* HomeViewController.swift in Sources */,
 				289463D924ABDD7E00595920 /* BaseUILabel.swift in Sources */,
