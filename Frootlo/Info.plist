@@ -71,5 +71,7 @@
 		<string>Signika-Regular.ttf</string>
 		<string>Signika-SemiBold.ttf</string>
 	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 </dict>
 </plist>

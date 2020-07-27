@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PopularItemsCollectionViewCellID" id="gTV-IL-0wX" customClass="PopularItemsCollectionViewCell" customModule="Frootlo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="481" height="105"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="481" height="105"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1J5-OM-P2q">
+                        <rect key="frame" x="0.0" y="0.0" width="481" height="105"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="4Ae-BM-WaX">
+                                <rect key="frame" x="10" y="18" width="176.5" height="69"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mango" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJO-qF-Fh0">
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sindhri | Chaunsa | Langrha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNJ-ey-ey9">
+                                        <rect key="frame" x="0.0" y="38" width="176.5" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Available in Box, Per kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwV-AJ-GEM">
+                                        <rect key="frame" x="0.0" y="57" width="109.5" height="12"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="10"/>
+                                        <color key="textColor" name="grey_text"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="grey_theme"/>
+                        <constraints>
+                            <constraint firstItem="4Ae-BM-WaX" firstAttribute="leading" secondItem="1J5-OM-P2q" secondAttribute="leading" constant="10" id="fm2-kw-ZIG"/>
+                            <constraint firstItem="4Ae-BM-WaX" firstAttribute="centerY" secondItem="1J5-OM-P2q" secondAttribute="centerY" id="jJ3-Z3-czj"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mango" translatesAutoresizingMaskIntoConstraints="NO" id="hlf-QD-jQn">
+                        <rect key="frame" x="370" y="-37.5" width="101" height="127.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duk-GA-Wcc">
+                        <rect key="frame" x="313.5" y="86" width="107" height="38"/>
+                        <color key="backgroundColor" name="yellow_theme"/>
+                        <inset key="contentEdgeInsets" minX="15" minY="8" maxX="15" maxY="8"/>
+                        <state key="normal" title="Buy now" image="price_tag"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="19"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="1J5-OM-P2q" secondAttribute="bottom" id="1cB-m4-ha7"/>
+                <constraint firstAttribute="trailing" secondItem="hlf-QD-jQn" secondAttribute="trailing" constant="10" id="9Cl-4B-elg"/>
+                <constraint firstItem="duk-GA-Wcc" firstAttribute="trailing" secondItem="hlf-QD-jQn" secondAttribute="centerX" id="LG3-Gr-DOr"/>
+                <constraint firstItem="1J5-OM-P2q" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Piw-2b-c8G"/>
+                <constraint firstAttribute="trailing" secondItem="1J5-OM-P2q" secondAttribute="trailing" id="QiV-Cz-bhI"/>
+                <constraint firstItem="hlf-QD-jQn" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" multiplier="0.5" id="QwO-VL-AXn"/>
+                <constraint firstItem="duk-GA-Wcc" firstAttribute="centerY" secondItem="1J5-OM-P2q" secondAttribute="bottom" id="oMt-3t-ePV"/>
+                <constraint firstItem="1J5-OM-P2q" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="pHt-Xd-qbN"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="481" height="144"/>
+            <point key="canvasLocation" x="212.31884057971016" y="173.10267857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="mango" width="101" height="127"/>
+        <image name="price_tag" width="8" height="8"/>
+        <namedColor name="grey_text">
+            <color red="0.58823529411764708" green="0.58823529411764708" blue="0.60392156862745094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="grey_theme">
+            <color red="0.97600001096725464" green="0.98000001907348633" blue="0.98400002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yellow_theme">
+            <color red="0.94900000095367432" green="0.72200000286102295" blue="0.29399999976158142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

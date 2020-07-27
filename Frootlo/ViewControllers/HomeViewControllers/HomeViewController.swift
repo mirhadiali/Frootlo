@@ -2,66 +2,90 @@
 //  HomeViewController.swift
 //  Frootlo
 //
-//  Created by BYKEA - Hadi Ali on 04/07/2020.
+//  Created by BYKEA - Hadi Ali on 27/07/2020.
 //  Copyright © 2020 Frootlo. All rights reserved.
 //
 
 import UIKit
 
 class HomeViewController: UIViewController {
-
-    @IBOutlet weak var fruitesCollectionView: UICollectionView!
-    @IBOutlet var categoryBtn: [UIButton]!
+    
+    @IBOutlet weak var categoryTableView: UITableView! {
+        didSet {
+            categoryTableView.delegate = self
+            categoryTableView.dataSource = self
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
-        fruitesCollectionView.delegate = self
-        fruitesCollectionView.dataSource = self
+        categoryTableView.estimatedRowHeight = 600
+        categoryTableView.rowHeight = UITableView.automaticDimension
     }
     
-    @IBAction func dropDownBtnTap(_ sender: Any) {
-    }
-    @IBAction func addLocationBtnTap(_ sender: Any) {
-    }
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
 
-extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        
-        return 10
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 2
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FruitCollectionViewCell", for: indexPath) as! FruitCollectionViewCell
-        return cell
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
     }
     
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-           let width = fruitesCollectionView.frame.width
-           let height = fruitesCollectionView.frame.height
-           let cell = CGSize(width: width/3 , height: height)
-           return cell
-       }
-
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        
-        return 3
+        switch indexPath.section {
+        case 0:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "RecommendedCell") as! RecommendedTableViewCell
+            return cell
+            
+        default:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "PopularCell") as! PopularTableViewCell
+            return cell
+            
+        }
     }
-
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Hadi"
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        switch indexPath.section {
+        case 1:
+            return self.categoryTableView.frame.height
+        default:
+            return 230
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        
+        let vu = HomeHeaderView.loadNib()
+        switch section {
+        case 0:
+            vu.sectionTitle.text = "Recommended"
+            return vu
+        default:
+            vu.sectionTitle.text = "Popular"
+        }
+        return vu
+    }
+    
 }

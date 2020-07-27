@@ -23,6 +23,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITextField.appearance().substituteFontName = "Signika"
         UIButton.appearance().substituteFontName = "Signika"
         
+//        if #available(iOS 13.0, *) {
+//            // In iOS 13 setup is done in SceneDelegate
+//        } else {
+//            self.window?.makeKeyAndVisible()
+//        }
+        
+        return true
+    }
+    
+    func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+//        if #available(iOS 13.0, *) {
+//            // In iOS 13 setup is done in SceneDelegate
+//        } else {
+//            let window = UIWindow(frame: UIScreen.main.bounds)
+//            self.window = window
+//
+//
+//                let mainstoryboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//                let newViewcontroller:UIViewController = mainstoryboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+//                window.rootViewController = newViewcontroller
+//
+//        }
+        
         return true
     }
     

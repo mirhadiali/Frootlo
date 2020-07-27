@@ -8,7 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1D4B1C121EA4593D2D13103D /* Pods_FrootloTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A2707B967B9603DAD2AA0F /* Pods_FrootloTests.framework */; };
-		280B03AA24B0A0110000283A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280B03A924B0A0110000283A /* HomeViewController.swift */; };
+		2810D83B24CA1F3B001243F9 /* PopularItemsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2810D83924CA1F3B001243F9 /* PopularItemsCollectionViewCell.swift */; };
+		2810D83C24CA1F3B001243F9 /* PopularItemsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2810D83A24CA1F3B001243F9 /* PopularItemsCollectionViewCell.xib */; };
+		2814ED1D24CE219F00412083 /* RecommendedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2814ED1C24CE219F00412083 /* RecommendedTableViewCell.swift */; };
+		2814ED1F24CE21B100412083 /* PopularTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2814ED1E24CE21B100412083 /* PopularTableViewCell.swift */; };
+		2814ED2124CE21F700412083 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2814ED2024CE21F700412083 /* HomeViewController.swift */; };
+		2814ED2324CE3FCD00412083 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2814ED2224CE3FCD00412083 /* HomeHeaderView.swift */; };
+		2814ED2524CE3FE300412083 /* HomeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2814ED2424CE3FE300412083 /* HomeHeaderView.xib */; };
 		2875F79E24A955BF007CBAEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F79D24A955BF007CBAEC /* AppDelegate.swift */; };
 		2875F7A224A955BF007CBAEC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875F7A124A955BF007CBAEC /* LoginViewController.swift */; };
 		2875F7A524A955BF007CBAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2875F7A324A955BF007CBAEC /* Main.storyboard */; };
@@ -22,6 +28,7 @@
 		288A5E4024B31D9700982DB6 /* Signika-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 288A5E3C24B31D9700982DB6 /* Signika-Regular.ttf */; };
 		288A5E4124B31D9700982DB6 /* Signika-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 288A5E3D24B31D9700982DB6 /* Signika-Light.ttf */; };
 		288A5E4224B31D9700982DB6 /* Signika-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 288A5E3E24B31D9700982DB6 /* Signika-Bold.ttf */; };
+		288A5E4B24B548C400982DB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288A5E4A24B548C400982DB6 /* SceneDelegate.swift */; };
 		2893965324B0A6A2004A9C1C /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2893965224B0A6A2004A9C1C /* Cart.storyboard */; };
 		2893966524B13FF9004A9C1C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2893966424B13FF9004A9C1C /* Home.storyboard */; };
 		2893966824B14662004A9C1C /* FruitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2893966724B14662004A9C1C /* FruitCollectionViewCell.swift */; };
@@ -55,7 +62,13 @@
 /* Begin PBXFileReference section */
 		0FEB753CD5A5F6D86821F41D /* Pods_Frootlo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frootlo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10AB655ED9249B1DAE465516 /* Pods_Frootlo_FrootloUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frootlo_FrootloUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		280B03A924B0A0110000283A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2810D83924CA1F3B001243F9 /* PopularItemsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularItemsCollectionViewCell.swift; sourceTree = "<group>"; };
+		2810D83A24CA1F3B001243F9 /* PopularItemsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularItemsCollectionViewCell.xib; sourceTree = "<group>"; };
+		2814ED1C24CE219F00412083 /* RecommendedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTableViewCell.swift; sourceTree = "<group>"; };
+		2814ED1E24CE21B100412083 /* PopularTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularTableViewCell.swift; sourceTree = "<group>"; };
+		2814ED2024CE21F700412083 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2814ED2224CE3FCD00412083 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		2814ED2424CE3FE300412083 /* HomeHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeHeaderView.xib; sourceTree = "<group>"; };
 		2875F79A24A955BF007CBAEC /* Frootlo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frootlo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2875F79D24A955BF007CBAEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2875F7A124A955BF007CBAEC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +91,7 @@
 		288A5E3C24B31D9700982DB6 /* Signika-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika-Regular.ttf"; sourceTree = "<group>"; };
 		288A5E3D24B31D9700982DB6 /* Signika-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika-Light.ttf"; sourceTree = "<group>"; };
 		288A5E3E24B31D9700982DB6 /* Signika-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Signika-Bold.ttf"; sourceTree = "<group>"; };
+		288A5E4A24B548C400982DB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2893965224B0A6A2004A9C1C /* Cart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
 		2893965A24B0AC19004A9C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2893966424B13FF9004A9C1C /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -166,6 +180,7 @@
 		2875F79C24A955BF007CBAEC /* Frootlo */ = {
 			isa = PBXGroup;
 			children = (
+				288A5E4A24B548C400982DB6 /* SceneDelegate.swift */,
 				2875F79D24A955BF007CBAEC /* AppDelegate.swift */,
 				2893966924B15B1A004A9C1C /* Assets.xcassets */,
 				2875F7AB24A955C0007CBAEC /* Info.plist */,
@@ -176,6 +191,7 @@
 				2875F7D524A95900007CBAEC /* Firebase */,
 				2875F7DB24A95991007CBAEC /* ViewControllers */,
 				2875F7DC24A959AA007CBAEC /* StoryBoards */,
+				288A5E4524B525A900982DB6 /* Views */,
 				2875F7E424AA95D0007CBAEC /* Extension */,
 				289463DC24ABE8C000595920 /* Font */,
 				2875F7EB24AAA9B2007CBAEC /* Utilities */,
@@ -267,6 +283,15 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		288A5E4524B525A900982DB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2814ED2224CE3FCD00412083 /* HomeHeaderView.swift */,
+				2814ED2424CE3FE300412083 /* HomeHeaderView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2893965424B0A93F004A9C1C /* LoginViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,8 +303,8 @@
 		2893965524B0A9C3004A9C1C /* HomeViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2814ED2024CE21F700412083 /* HomeViewController.swift */,
 				2893966624B1460D004A9C1C /* cells */,
-				280B03A924B0A0110000283A /* HomeViewController.swift */,
 			);
 			path = HomeViewControllers;
 			sourceTree = "<group>";
@@ -287,7 +312,11 @@
 		2893966624B1460D004A9C1C /* cells */ = {
 			isa = PBXGroup;
 			children = (
+				2814ED1C24CE219F00412083 /* RecommendedTableViewCell.swift */,
+				2814ED1E24CE21B100412083 /* PopularTableViewCell.swift */,
 				2893966724B14662004A9C1C /* FruitCollectionViewCell.swift */,
+				2810D83924CA1F3B001243F9 /* PopularItemsCollectionViewCell.swift */,
+				2810D83A24CA1F3B001243F9 /* PopularItemsCollectionViewCell.xib */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -440,8 +469,10 @@
 				288A5E4124B31D9700982DB6 /* Signika-Light.ttf in Resources */,
 				288A5E3F24B31D9700982DB6 /* Signika-SemiBold.ttf in Resources */,
 				2893965324B0A6A2004A9C1C /* Cart.storyboard in Resources */,
+				2814ED2524CE3FE300412083 /* HomeHeaderView.xib in Resources */,
 				288A5E4224B31D9700982DB6 /* Signika-Bold.ttf in Resources */,
 				2875F7A524A955BF007CBAEC /* Main.storyboard in Resources */,
+				2810D83C24CA1F3B001243F9 /* PopularItemsCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,14 +619,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				2875F7A224A955BF007CBAEC /* LoginViewController.swift in Sources */,
+				2814ED1F24CE21B100412083 /* PopularTableViewCell.swift in Sources */,
 				2875F7ED24AAA9E5007CBAEC /* Environment.swift in Sources */,
 				289463F524ABF0B100595920 /* BaseUITextField.swift in Sources */,
+				2814ED1D24CE219F00412083 /* RecommendedTableViewCell.swift in Sources */,
 				289463DB24ABE47D00595920 /* RoundedLabel.swift in Sources */,
 				2893966824B14662004A9C1C /* FruitCollectionViewCell.swift in Sources */,
 				2875F79E24A955BF007CBAEC /* AppDelegate.swift in Sources */,
-				280B03AA24B0A0110000283A /* HomeViewController.swift in Sources */,
+				2814ED2324CE3FCD00412083 /* HomeHeaderView.swift in Sources */,
+				288A5E4B24B548C400982DB6 /* SceneDelegate.swift in Sources */,
+				2810D83B24CA1F3B001243F9 /* PopularItemsCollectionViewCell.swift in Sources */,
 				289463D924ABDD7E00595920 /* BaseUILabel.swift in Sources */,
 				289463D724ABD6DE00595920 /* Extensions.swift in Sources */,
+				2814ED2124CE21F700412083 /* HomeViewController.swift in Sources */,
 				289463F324ABEDEC00595920 /* BaseUIButton.swift in Sources */,
 				287DBC9E24AC7CBB00A63B4D /* Constants.swift in Sources */,
 			);
