@@ -21,7 +21,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        categoryTableView.estimatedRowHeight = 600
+//        categoryTableView.estimatedRowHeight = 600
         categoryTableView.rowHeight = UITableView.automaticDimension
     }
     
@@ -71,7 +71,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         case 1:
             return self.categoryTableView.frame.height
         default:
-            return 230
+            return 250
         }
     }
     

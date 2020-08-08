@@ -32,12 +32,12 @@
 		2893965324B0A6A2004A9C1C /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2893965224B0A6A2004A9C1C /* Cart.storyboard */; };
 		2893966524B13FF9004A9C1C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2893966424B13FF9004A9C1C /* Home.storyboard */; };
 		2893966824B14662004A9C1C /* FruitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2893966724B14662004A9C1C /* FruitCollectionViewCell.swift */; };
-		2893966A24B15B1B004A9C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2893966924B15B1A004A9C1C /* Assets.xcassets */; };
 		289463D724ABD6DE00595920 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289463D624ABD6DE00595920 /* Extensions.swift */; };
 		289463D924ABDD7E00595920 /* BaseUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289463D824ABDD7E00595920 /* BaseUILabel.swift */; };
 		289463DB24ABE47D00595920 /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289463DA24ABE47D00595920 /* RoundedLabel.swift */; };
 		289463F324ABEDEC00595920 /* BaseUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289463F224ABEDEC00595920 /* BaseUIButton.swift */; };
 		289463F524ABF0B100595920 /* BaseUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289463F424ABF0B100595920 /* BaseUITextField.swift */; };
+		289F434E24DF4DDE0092FE59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289F434D24DF4DDE0092FE59 /* Assets.xcassets */; };
 		5445F0D53A673992426423F0 /* Pods_Frootlo_FrootloUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AB655ED9249B1DAE465516 /* Pods_Frootlo_FrootloUITests.framework */; };
 		BA77B3226B172F44056B8D8F /* Pods_Frootlo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEB753CD5A5F6D86821F41D /* Pods_Frootlo.framework */; };
 /* End PBXBuildFile section */
@@ -96,12 +96,12 @@
 		2893965A24B0AC19004A9C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2893966424B13FF9004A9C1C /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		2893966724B14662004A9C1C /* FruitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCollectionViewCell.swift; sourceTree = "<group>"; };
-		2893966924B15B1A004A9C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		289463D624ABD6DE00595920 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Frootlo/Utilities/Extensions.swift; sourceTree = SOURCE_ROOT; };
 		289463D824ABDD7E00595920 /* BaseUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUILabel.swift; sourceTree = "<group>"; };
 		289463DA24ABE47D00595920 /* RoundedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
 		289463F224ABEDEC00595920 /* BaseUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIButton.swift; sourceTree = "<group>"; };
 		289463F424ABF0B100595920 /* BaseUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUITextField.swift; sourceTree = "<group>"; };
+		289F434D24DF4DDE0092FE59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A4EF02570FAC3DF07889828 /* Pods-Frootlo-FrootloUITests.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frootlo-FrootloUITests.debug staging.xcconfig"; path = "Target Support Files/Pods-Frootlo-FrootloUITests/Pods-Frootlo-FrootloUITests.debug staging.xcconfig"; sourceTree = "<group>"; };
 		2A828D6B579691D5CC894C1F /* Pods-FrootloTests.debug staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrootloTests.debug staging.xcconfig"; path = "Target Support Files/Pods-FrootloTests/Pods-FrootloTests.debug staging.xcconfig"; sourceTree = "<group>"; };
 		49AAA8F7A2360AF3C5A4F90D /* Pods-Frootlo-FrootloUITests.release production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frootlo-FrootloUITests.release production.xcconfig"; path = "Target Support Files/Pods-Frootlo-FrootloUITests/Pods-Frootlo-FrootloUITests.release production.xcconfig"; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 			children = (
 				288A5E4A24B548C400982DB6 /* SceneDelegate.swift */,
 				2875F79D24A955BF007CBAEC /* AppDelegate.swift */,
-				2893966924B15B1A004A9C1C /* Assets.xcassets */,
+				289F434D24DF4DDE0092FE59 /* Assets.xcassets */,
 				2875F7AB24A955C0007CBAEC /* Info.plist */,
 				2875F7E724AA9C94007CBAEC /* Frootlo Debug Staging.xcconfig */,
 				2875F7E824AA9CB5007CBAEC /* Frootlo Debug Production.xcconfig */,
@@ -464,7 +464,6 @@
 				2893966524B13FF9004A9C1C /* Home.storyboard in Resources */,
 				2875F7AA24A955C0007CBAEC /* LaunchScreen.storyboard in Resources */,
 				2875F7E324A95ECF007CBAEC /* GoogleService-Info.plist in Resources */,
-				2893966A24B15B1B004A9C1C /* Assets.xcassets in Resources */,
 				288A5E4024B31D9700982DB6 /* Signika-Regular.ttf in Resources */,
 				288A5E4124B31D9700982DB6 /* Signika-Light.ttf in Resources */,
 				288A5E3F24B31D9700982DB6 /* Signika-SemiBold.ttf in Resources */,
@@ -472,6 +471,7 @@
 				2814ED2524CE3FE300412083 /* HomeHeaderView.xib in Resources */,
 				288A5E4224B31D9700982DB6 /* Signika-Bold.ttf in Resources */,
 				2875F7A524A955BF007CBAEC /* Main.storyboard in Resources */,
+				289F434E24DF4DDE0092FE59 /* Assets.xcassets in Resources */,
 				2810D83C24CA1F3B001243F9 /* PopularItemsCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

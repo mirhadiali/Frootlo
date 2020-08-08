@@ -10,4 +10,10 @@ import UIKit
 
 class FruitCollectionViewCell: UICollectionViewCell {
     
+    override class func awakeFromNib() {
+        super.awakeFromNib()
+        
+
+    }
+    
 }
