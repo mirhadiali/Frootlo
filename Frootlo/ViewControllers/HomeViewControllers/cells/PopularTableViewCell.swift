@@ -39,6 +39,9 @@ extension PopularTableViewCell: UICollectionViewDelegate, UICollectionViewDataSo
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PopularItemsCollectionViewCellID", for: indexPath) as! PopularItemsCollectionViewCell
+        if indexPath.row == 2 {
+            cell.subCategories.isHidden = true
+        }
         return cell
     }
     
